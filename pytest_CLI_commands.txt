@@ -1,0 +1,33 @@
+CLI Command line interface:
+
+Stop at first filure:
+    pytest -x
+
+Allow max failures before stopping:
+    pytest --maxfail=2
+
+Run Single test:
+    pytest -k test_func_name
+
+Run a single file:
+    pytest test_file.py
+
+Re-run last failed tests only:
+    pytest --lf
+
+Re-Run all tests, starting with last failed:
+    pytest -ff
+
+You can combine CLI options together:
+    pytest --f -x -v
+
+
+report.html:
+pytest --template=html1/index.html --report=report.html
+
+
+
+
+
+
+
