@@ -5,7 +5,7 @@ from pom.login_elements import LoginPage
 
 
 @pytest.mark.regression
-def test_login(login_set_up) -> None:
+def atest_login(login_set_up) -> None:
     # Assess - Given
     page = login_set_up
     # Act - When/And

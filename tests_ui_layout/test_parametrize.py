@@ -6,7 +6,7 @@ from pom.login_elements import LoginPage
 
 @pytest.mark.parametrize("username", ["dev"])# pytest.param("kuku", marks=pytest.mark.xfail)])
 @pytest.mark.parametrize("password", ["6WQGUE5ZSzyK9Rqf"]) #, pytest.param("kuku", marks=pytest.mark.xfail)])
-def test_login_params(set_up, username, password) -> None:
+def atest_login_params(set_up, username, password) -> None:
     # Assess - Given
     page = set_up
     # Act - When/And
