@@ -1,3 +1,4 @@
+import os
 import time
 import pytest
 from playwright.sync_api import Playwright, sync_playwright
@@ -12,7 +13,7 @@ def test_login_page(login_set_up) -> None:
     # Assess - Given
     page = login_set_up
     login = LoginPage(page)
-    login.login_form("dev", utils.secret_config.PASSWORD)
+    login.login_form("dev", os.environ['PASSWORD'])
 
 
     # page.click(LoginPage.loginButton)
