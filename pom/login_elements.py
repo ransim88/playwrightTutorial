@@ -12,10 +12,6 @@ class LoginPage:
         self.page.fill(username_elem, username)
         self.page.fill(password_elem, password)
 
-        username = "[aria-label='Username']"
-        password = "[aria-label='Password']"
-        loginButton = "'Login'"
-
 
 
 

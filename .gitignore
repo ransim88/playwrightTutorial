@@ -1,0 +1,5 @@
+/env/
+/.idea/
+/utils/secret_config.py
+/**/__pycache__/*
+/utils/secret_config.py

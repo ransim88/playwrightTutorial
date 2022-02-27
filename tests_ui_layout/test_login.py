@@ -4,8 +4,7 @@ from playwright.sync_api import Playwright, sync_playwright
 from pom.login_elements import LoginPage
 
 
-@pytest.mark.regression
-def atest_login(login_set_up) -> None:
+def test_login(login_set_up) -> None:
     # Assess - Given
     page = login_set_up
     # Act - When/And
